@@ -1,0 +1,239 @@
+<XMLDiagram>
+  <TDBADiagramController Locked="0">
+    <Elements>
+      <TDBADiagramObject id="1" propertiesclass="TDiagramMetaTableProperties" objectname="public.congregacao">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="470" top="260" width="200" height="108"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="2" propertiesclass="TDiagramMetaTableProperties" objectname="public.endereco">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="280" top="420" width="200" height="150"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="3" propertiesclass="TDiagramForeignKeyProperties" objectname="public.congregacao.fk_ogem2b65mx9r5dadb3ycixea0">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="48" top="48" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="570" y="310"/>
+                <Point x="380" y="495"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="4" propertiesclass="TDiagramMetaTableProperties" objectname="public.membro">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="30" top="270" width="200" height="248"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="5" propertiesclass="TDiagramForeignKeyProperties" objectname="public.membro.fk_nsn8l5phf9qcvmpvt7pphmu5h">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="80" top="80" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="130" y="320"/>
+                <Point x="570" y="320"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="6" propertiesclass="TDiagramForeignKeyProperties" objectname="public.membro.fk_o25l0vwml03ii59fgrvknlcr">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="96" top="96" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="130" y="394"/>
+                <Point x="380" y="500"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="7" propertiesclass="TDiagramForeignKeyProperties" objectname="public.congregacao.fk_alx1cdok0f81p22nylmc4f5f8">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="112" top="112" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="570" y="310"/>
+                <Point x="130" y="310"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="8" propertiesclass="TDiagramMetaTableProperties" objectname="public.membro_telefone">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="190" top="190" width="200" height="49"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="9" propertiesclass="TDiagramForeignKeyProperties" objectname="public.membro_telefone.fk_c97l2uajr0ycmyiqtcbxpksn9">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="144" top="144" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="290" y="214"/>
+                <Point x="130" y="390"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="10" propertiesclass="TDiagramMetaTableProperties" objectname="public.telefone">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="280" top="60" width="200" height="80"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="11" propertiesclass="TDiagramForeignKeyProperties" objectname="public.congregacao.fk_34svfbq95ulhnccehkjyj08vi">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="176" top="176" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="570" y="310"/>
+                <Point x="380" y="100"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="12" propertiesclass="TDiagramForeignKeyProperties" objectname="public.membro_telefone.fk_3jsotib0rpr6yojwofr2cyhd0">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="192" top="192" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="290" y="210"/>
+                <Point x="380" y="100"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="13" propertiesclass="TDiagramMetaTableProperties" objectname="public.usuario">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="30" top="20" width="200" height="153"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="14" propertiesclass="TDiagramForeignKeyProperties" objectname="public.membro.fk_8lmreeorcyhuv17trvh40hl3q">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="224" top="224" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="130" y="390"/>
+                <Point x="130" y="96"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="15" propertiesclass="TDiagramMetaTableProperties" objectname="public.ministerio">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="500" top="730" width="200" height="122"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="16" propertiesclass="TDiagramForeignKeyProperties" objectname="public.ministerio.fk_mecqk5j5ebsu7innt2ps80kdy">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="256" top="256" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="630" y="770"/>
+                <Point x="40" y="460"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="17" propertiesclass="TDiagramForeignKeyProperties" objectname="public.ministerio.fk_90bj1aqkg7owu7148dr5gd580">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="272" top="272" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="620" y="780"/>
+                <Point x="50" y="480"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="18" propertiesclass="TDiagramMetaTableProperties" objectname="public.ministerio_eventos">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="260" top="760" width="200" height="49"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="19" propertiesclass="TDiagramForeignKeyProperties" objectname="public.ministerio_eventos.fk_1w5w7273s5c7k3ojjxn51hsrl">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="304" top="304" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="360" y="784"/>
+                <Point x="600" y="790"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="20" propertiesclass="TDiagramMetaTableProperties" objectname="public.evento">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="30" top="730" width="200" height="136"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="21" propertiesclass="TDiagramForeignKeyProperties" objectname="public.evento.fk_ja1m3qgy782sjy0vqnl3n3vea">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="336" top="336" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="50" y="790"/>
+                <Point x="50" y="400"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="22" propertiesclass="TDiagramForeignKeyProperties" objectname="public.ministerio_eventos.fk_iso322ua1k4b7hsu1fvdau0kl">
+        <TDiagramForeignKeyProperties>
+          <Relation>
+            <Geometry left="352" top="352" width="200" height="100"/>
+            <Glyph>
+              <Geometry>
+                <Point x="360" y="780"/>
+                <Point x="130" y="798"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramForeignKeyProperties>
+      </TDBADiagramObject>
+    </Elements>
+    <Surface zoom="100" scrollx="0" scrolly="0"/>
+  </TDBADiagramController>
+</XMLDiagram>

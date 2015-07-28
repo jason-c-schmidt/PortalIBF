@@ -1,0 +1,42 @@
+PLayer em Polymer pronto pra usar:
+==================================
+https://github.com/prateekjadhwani/podcast-player
+
+
+
+design:
+=======
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.red-lime.min.css" />
+<link rel="stylesheet" href="./material.min.css">
+<script src="./material.min.js"></script>
+<link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+
+Procedimentos:
+==============
+• Instalar o NodeJS no servidor;
+• Instalar o Material Lite (http://www.getmdl.io/started/index.html#download) Pasta já contém o Red-Lime pronto.
+• Instalando template (PortalIBF\Z-índice de Fontes Originais\Material Lite - Android Template\templates\android-dot-com)
+
+
+patch material lite
+https://github.com/google/material-design-lite/issues/1187
+
+
+Imagem redonda c/ sombra:
+=========================
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
+
+
+
+

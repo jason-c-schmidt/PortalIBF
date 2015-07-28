@@ -1,0 +1,35 @@
+tipos de membro:
+líder
+aluno
+membro
+pastor
+participante
+
+
+
+biblioteca:
+pessoa
+livros
+data
+
+
+criar etiquetas:
+pessoas
+biblioteca
+crachá retiro
+certificado de batismo
+carta de recomendação
+
+
+
+como participar
+
+
+gerador de boletim como relatório jornalzinho (c/ aniversariantes do mês)
+
+
+relatórios:
+membros
+
+
+

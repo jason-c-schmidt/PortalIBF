@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+font-family: 'And Black';
+src: url('fonts/and_black.eot');
+src: url('fonts/and_black.eot?#iefix') format('embedded-opentype'),
+     url('fonts/and_black.woff') format('woff'),
+     url('fonts/and_black.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
